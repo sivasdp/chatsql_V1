@@ -116,9 +116,7 @@ st.title("Chat with MySQL Database")
 
 # sidebar
 with st.sidebar:
-    st.subheader("Settings")
-    st.write("This is a simple chat application using MySQL. Connect to the database and start chatting.")
-
+    st.subheader("Home")
     # Taking inputs to connect with the database
     st.text_input("Host", value="localhost", key="Host")
     st.text_input("Port", value="3306", key="Port")
